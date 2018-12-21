@@ -1,0 +1,18 @@
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Tag</th>
+      <th scope="col">URL</th>
+      <th scope="col">Description</th>
+      <th scope="col">a</th>
+    </tr>
+  </thead>
+  <tbody *ngFor='let awesome of awesomeList; index as i'>
+    <tr>
+      <th scope="row">{{awesome.tag}}</th>
+      <td>{{awesome.url}}</td>
+      <td>{{awesome.descriptions}}</td>
+      <td><button (click)="deleteAwesome(i)" type="button" class="btn btn-danger">Delete</button></td>
+    <tr>
+  </tbody>
+</table>

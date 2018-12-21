@@ -1,5 +1,8 @@
-import { NgModule } from '@angular/core';
+import { CreateAwsomeComponent } from './create-awsome/create-awsome.component';
+import { ListAwesomeComponent } from './list-awesome/list-awesome.component';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+
 
 const routes: Routes = [];
 
